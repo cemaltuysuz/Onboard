@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">onboard</string>
+    <string name="next">Next </string>
+    <string name="back">Back</string>
+    <string name="lorem_short">Lorem impsun</string>
+    <string name="lorem_long">Lorem impsun dolor sit amet</string>
+</resources>

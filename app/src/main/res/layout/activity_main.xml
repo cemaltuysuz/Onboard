@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"/>
+    
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/next"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            style="@style/privtext"
+            android:text="@string/next"
+            android:drawableRight="@drawable/ic_next"/>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:layout_alignParentBottom="true"
+            app:ci_drawable="@drawable/selected"
+            app:ci_orientation="horizontal"
+            android:id="@+id/circleIndicator"
+            app:ci_gravity="center"
+            app:ci_width="5dp"
+            app:ci_height="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/back"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            style="@style/privtext"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/ic_back"/>
+
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginBottom="?attr/actionBarSize"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:paddingBottom="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:src="@drawable/img3"
+            android:id="@+id/img1"/>
+
+        <TextView
+            style="@style/titlestyle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <TextView
+            android:paddingTop="10dp"
+            style="@style/subtitlestyle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
