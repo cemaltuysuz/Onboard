@@ -13,4 +13,4 @@
 ## Library
 
 Circle indicator:
-    https://github.com/hdodenhof/CircleImageView
+    https://github.com/ongakuer/CircleIndicator
